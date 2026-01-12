@@ -1,3 +1,4 @@
+import ExploreBtn from "@/components/ExploreBtn";
 import React from "react";
 
 const page = () => {
@@ -9,6 +10,7 @@ const page = () => {
       <p className="text-center mt-5">
         Hackatons, Meetups, and Conferences, All in One Place
       </p>
+      <ExploreBtn></ExploreBtn>
     </section>
   );
 };
